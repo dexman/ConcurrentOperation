@@ -56,7 +56,7 @@ open class ConcurrentOperation: Operation {
     /// This method must be overridden by subclasses. Make exactly one
     /// call to `completeOperation()` when the work started by this
     /// method is complete. Don't call this method directly.
-    public func executeOperation() {
+    open func executeOperation() {
         abort()
     }
 

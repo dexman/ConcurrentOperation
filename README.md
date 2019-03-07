@@ -83,3 +83,7 @@ func useExampleBlockOperation() {
 ## TODO
 
 - Support for other platforms, e.g. macos, tvos, and watchos.
+
+## License
+
+`ConcurrentOperation` is protected under the MIT license.

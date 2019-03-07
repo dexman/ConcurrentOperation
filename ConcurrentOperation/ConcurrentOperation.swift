@@ -17,7 +17,7 @@ import Foundation
 ///
 /// Do not call `executeOperation()` directly, it will be called for
 /// you. Do not call `completeOperation()` more than once.
-public class ConcurrentOperation: Operation {
+open class ConcurrentOperation: Operation {
 
     public final override var isAsynchronous: Bool {
         return true

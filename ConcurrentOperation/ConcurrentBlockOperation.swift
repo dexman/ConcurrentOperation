@@ -11,7 +11,7 @@ import Foundation
 /// Concurrent block operation subclass.
 ///
 /// Executes a given block asynchronously in an `OperationQueue`.
-public class ConcurrentBlockOperation: ConcurrentOperation {
+open class ConcurrentBlockOperation: ConcurrentOperation {
 
     /// Create a new operation.
     ///
